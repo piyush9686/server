@@ -11,7 +11,7 @@ export const initializeSocket = (server) => {
     io = new Server(server, {
 
         cors: {
-            origin: "http://localhost:5173",
+            origin: "https://frontend-phi-sepia-29.vercel.app",
             credentials: true,
         },
 
